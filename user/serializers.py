@@ -5,4 +5,3 @@ class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = AddUser
         fields = ('name','email','password')
-

@@ -19,7 +19,7 @@ from django.urls import path, include
 # from siteadmin.views import AdvisorView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('root/', admin.site.urls),
     path('user/', include('user.urls')),
     path('admin/', include('siteadmin.urls')),
 ]
