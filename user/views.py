@@ -9,7 +9,7 @@ from rest_framework import viewsets
 from .models import AddUser
 from .serializers import UserSerializer
 
-class UserView(APIView):
+# class UserView(APIView):
     
     def post(self, request, *args, **kwargs):
         data = {

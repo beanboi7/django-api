@@ -37,8 +37,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'siteadmin.apps.SiteadminConfig',
-    'user.apps.UserConfig',
     'rest_framework',
     'siteadmin',
     'user',
